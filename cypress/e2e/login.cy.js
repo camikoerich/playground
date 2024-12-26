@@ -4,7 +4,7 @@ describe("Login", () => {
     cy.goHome()
   })
 
-  it("Deve logar com sucesso", () => { 
+  it("Deve logar com sucesso.", () => { 
     cy.login('papito@cyskills.com.br', 'showtime') 
     cy.userLoggedIn() 
   })
